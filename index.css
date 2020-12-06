@@ -3,8 +3,53 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 body {
     background-color: black;
+
+    overflow: hidden;
+}
+
+h1, span, p, h2, h3, h4, h5 {
+    color: white;
+}
+
+.header {
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: grey;
+
+    height: 5vh;
+
+    border-radius: 10px;
+}
+
+.body {
+    background-color: black;
+
+    height: 95vh;
+}
+
+.button {
+    background-color: rgb(32, 32, 32);
+
+    min-width: 5vw;
+    height: 4vh;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.flex-horizontal {
+    flex-direction: row;
 }
