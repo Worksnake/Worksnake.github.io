@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-h1, span, p, h2, h3, h4, h5 {
+h1, span, p, h2, h3, h4, h5, i, figcaption {
     color: white;
 }
 
@@ -52,4 +52,13 @@ h1, span, p, h2, h3, h4, h5 {
 
 .flex-horizontal {
     flex-direction: row;
+}
+
+.link {
+    cursor: pointer;
+    color: blue;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
