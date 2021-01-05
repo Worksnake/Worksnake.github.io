@@ -62,3 +62,12 @@ h1, span, p, h2, h3, h4, h5, i, figcaption {
 .cursor-pointer {
     cursor: pointer;
 }
+
+.spacehorizontal {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.whalf {
+    width: 50%;
+}

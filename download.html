@@ -1,20 +1,23 @@
+<!--Template document containing navbar and empty body-->
+
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns/website#">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Worksnake</title>
 
     <link rel="stylesheet" href="index.css">
-    
-    <meta name="google-site-verification" content="SBs0G8tIr4frPfUmeQ4aFfoH_iXE88QwYZZFcHY-Rgk" />
-    <meta name="google-site-verification" content="8V0OSqQPTuRqDw57lYvBNMA8I0AzPe_9TWHY5UFXa_s" />
 
     <meta name="og:title" content="Worksnake">
     <meta name="og:type" content="website">
     <meta name="og:url" content="https://worksnake.github.io">
     <meta name="og:image" content="https://raw.githubusercontent.com/Worksnake/worksnake/master/src/assets/logo.jpg">
     <meta name="og:description" content="Worksnake is a free open source program that reminds you to take breaks for your eyes.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <div class="container header">
@@ -32,19 +35,15 @@
         </div>
     </div>
     <div class="container body">
-        <h1>Worksnake</h1>
-        <h3>Worksnake will make sure your eyes do not suffer from you sitting behind a monitor all day</h3>
-        <div class="container flex-horizontal">
-            <div class="button" href="/download.html">
-                <span>Download now</span>
-            </div>
-            <p>&nbsp;&nbsp;or&nbsp;&nbsp;</p>
-            <div class="button" href="/about.html">
-                <span>Learn more</span>
-            </div>
-        </div>
+        <nobr class="container spacehorizontal whalf">
+            <i class="fab fa-windows fa-4x cursor-pointer href" style="color: white;" id="win32"></i>
+            <!--osx and linux not available yet-->
+            <!--<i class="fab fa-apple fa-4x cursor-pointer href" style="color: white;" id="osx"></i>
+            <i class="fab fa-linux fa-4x cursor-pointer href" style="color: white;" id="linux"></i>-->
+        </nobr>
     </div>
 
+    <script src="download.js"></script>
     <script src="link.js"></script>
 </body>
 </html>
